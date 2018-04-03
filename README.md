@@ -10,6 +10,8 @@ $ hexo deploy --generate
 $ hexo g -d
 $ hexo d -g
 
+监视文件变动
+hexo g --watch
 
 上传配置
   repository: ssh://git@github.com/jungang/jungang.github.io.git

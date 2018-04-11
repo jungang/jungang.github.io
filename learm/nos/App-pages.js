@@ -1,7 +1,7 @@
 "use strict";
 
-const   NLB_ACCESS_SECRET   = '876493f981414f8aa0874e463f03250b';
-const   NLB_ACCESS_ID       = '8503775c90ef4822903f44f0293878bf';
+const   NLB_ACCESS_SECRET   = '********************************';
+const   NLB_ACCESS_ID       = '********************************';
 const   NLB_BUCKET          = 'e163img';
 const   NOS_HOST            = 'nos.netease.com';
 const   NosClient           = require('./'),

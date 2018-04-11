@@ -10,7 +10,6 @@ let preloadImage = function (path) {
 		image.onerror = reject;
 		image.src = path;
 	});
-
 };
 
 preloadImage("https://www.baidu.com/img/superlogo_c4d7df0a003d3db9b65e9ef0fe6da1ec.png")
@@ -24,3 +23,4 @@ preloadImage("https://www.baidu.com/img/superlogo_c4d7df0a003d3db9b65e9ef0fe6da1
 	},function(){
 		console.log('load failed');
 	});
+

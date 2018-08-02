@@ -22,9 +22,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "hexo server",
-    "prebuild" : "echo Start to update GitHub...",
+    "prebuild": "echo Start to update GitHub...",
     "build": "hexo g -d",
-    "postbuild" : "echo GitHub update finished!",
+    "postbuild": "echo GitHub update finished!",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

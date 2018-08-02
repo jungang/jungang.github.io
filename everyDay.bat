@@ -21,6 +21,7 @@ cd G:\ÍøÒ×\ÏîÄ¿\jungang.github.io && G:
 hexo new %blogname%  && npm run build
 
 
+
  
  
  

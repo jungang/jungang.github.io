@@ -8,3 +8,4 @@ let foo2 = require('./foo2.js');
 
 
 exports.say = foo2.say;
+

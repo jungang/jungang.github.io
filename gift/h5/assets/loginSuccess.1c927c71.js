@@ -1,0 +1,1 @@
+import{P as o,a3 as t,a5 as e}from"./index.9588ac03.js";function a(a){o({title:"登录成功",icon:"none"}),console.log("登录成功",a);var l=0;let n=t();n.forEach(((o,t)=>{n[n.length-t-1].route.split("/"),"login-page"==n[n.length-t-1].route.split("/")[2]&&l++})),e({delta:l})}export{a as l};

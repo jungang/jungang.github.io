@@ -1,0 +1,1 @@
+import{W as e,a6 as o,a8 as t}from"./index.efa6eab6.js";function a(a){e({title:"登录成功",icon:"none"}),console.log("登录成功",a);var l=0;let n=o();n.forEach(((e,o)=>{n[n.length-o-1].route.split("/"),"login-page"==n[n.length-o-1].route.split("/")[2]&&l++})),t({delta:l})}export{a as l};

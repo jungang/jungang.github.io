@@ -1,0 +1,1 @@
+const e={event_key:{rules:[{format:"int"}]},array_length:{rules:[{format:"int"}]},event_type:{rules:[{format:"string"}]},comment:{rules:[{format:"string"}]},browser:{rules:[{format:"object"}]}},r={};export{r as e,e as v};

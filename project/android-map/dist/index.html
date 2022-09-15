@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover"><link rel="icon" href="favicon.ico"><title>My App (prod)</title><script src="https://unpkg.com/@dcloudio/uni-webview-js@0.0.3/index.js"></script><script>document.addEventListener('UniAppJSBridgeReady', function() {
+        uni.postMessage({
+          data: {
+            action: 'web页面里的消息'
+          }
+        })
+        uni.getEnv(function(res) {
+          console.log('当前环境：' + JSON.stringify(res))
+        })
+        console.log('🚀 ~ UniAppJSBridgeReady:')
+      })
+      function onBackPress(param){
+        console.log('🚀 ~ onBackPress')
+        window.history.back()
+      }</script><link href="css/chunk-06dda090.bcc0a907.css" rel="prefetch"><link href="css/chunk-08a2dccd.854872c3.css" rel="prefetch"><link href="css/chunk-1ebb8a0a.f876d10d.css" rel="prefetch"><link href="css/chunk-2c801e3d.a3d80a46.css" rel="prefetch"><link href="css/chunk-500ff788.52acf827.css" rel="prefetch"><link href="css/chunk-9fac32a0.4f5a5e3a.css" rel="prefetch"><link href="css/chunk-b7470d3e.c930d40b.css" rel="prefetch"><link href="css/chunk-cd5004e2.fac80c01.css" rel="prefetch"><link href="css/chunk-eb8d0e44.99ff9c92.css" rel="prefetch"><link href="css/chunk-fb8e888c.869454d8.css" rel="prefetch"><link href="js/chunk-06dda090.6c6dcd38.js" rel="prefetch"><link href="js/chunk-08a2dccd.0c2ef3f2.js" rel="prefetch"><link href="js/chunk-1ebb8a0a.695dfc33.js" rel="prefetch"><link href="js/chunk-232ae1a0.d9299349.js" rel="prefetch"><link href="js/chunk-2c801e3d.deea9aab.js" rel="prefetch"><link href="js/chunk-2d0c93d6.f9ffb6cd.js" rel="prefetch"><link href="js/chunk-2d0da563.d8236911.js" rel="prefetch"><link href="js/chunk-2d2093a0.74182594.js" rel="prefetch"><link href="js/chunk-2d22ce19.282daa3d.js" rel="prefetch"><link href="js/chunk-39dd8438.f40f60ed.js" rel="prefetch"><link href="js/chunk-500ff788.f8919ca9.js" rel="prefetch"><link href="js/chunk-7ea60053.f84c8e9d.js" rel="prefetch"><link href="js/chunk-9fac32a0.24655ffc.js" rel="prefetch"><link href="js/chunk-b7470d3e.a9960ecd.js" rel="prefetch"><link href="js/chunk-cd5004e2.923cd27f.js" rel="prefetch"><link href="js/chunk-eb8d0e44.bf283280.js" rel="prefetch"><link href="js/chunk-fb8e888c.62404147.js" rel="prefetch"><link href="css/app.dcaf81a5.css" rel="preload" as="style"><link href="css/chunk-vendors.37ffaa20.css" rel="preload" as="style"><link href="js/app.16667862.js" rel="preload" as="script"><link href="js/chunk-vendors.cb9810fc.js" rel="preload" as="script"><link href="css/chunk-vendors.37ffaa20.css" rel="stylesheet"><link href="css/app.dcaf81a5.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but My App (prod) doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.cb9810fc.js"></script><script src="js/app.16667862.js"></script></body></html>
